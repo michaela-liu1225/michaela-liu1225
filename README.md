@@ -7,7 +7,7 @@ I'm an MSc Artificial Intelligence for Sustainable Development candidate at Univ
 ## Selected work
 
 - **Multimodal moral reasoning evaluation** — Built a Python pipeline for 381 multimodal responses across 127 images and compared model and human judgements using Cohen's kappa, McNemar tests, bootstrap analysis and Jaccard similarity.
-- **Low-resource financial reasoning** — Fine-tuned Qwen3-4B and Qwen3-8B on FinQA with LoRA-based supervised fine-tuning, improving 4B evaluation accuracy from 24.9% to 32.4% (+7.5 percentage points).
+- **[FinReason-Lab](https://github.com/michaela-liu1225/FinReason-Lab)** — UCL COMP0087 team project. Contributed Qwen3-4B/8B LoRA/QLoRA SFT, data-size and training-length ablations, and residual-error analysis; the best reported 4B run improved legacy strict numeric accuracy from 24.93% to 32.43% (+7.50 pp).
 - **Information retrieval and ranking** — Implemented TF-IDF, query likelihood, BM25, FastText and logistic-regression re-ranking; tuned BM25 reached 0.235 MAP and 0.373 NDCG.
 - **Autonomous attendance robot** — Integrated face recognition, SLAM, path planning, obstacle avoidance, speech and arm control in ROS on a TIAGo robot, with 400+ cross-module validation runs.
 - **Jane Street market prediction** — Built an online-updated ensemble for non-stationary financial data and finished in the top 3% globally on Kaggle.
